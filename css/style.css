@@ -123,6 +123,48 @@ body{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
+#category-title-id {
+  background :url('https://via.placeholder.com/250') no-repeat;
+ /* background-position: center;*/
+ height: 200px;
+}
+
+/*FOOTER*/
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top : 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours,#address {
+  line-height: 2;
+}
+
+#hours > span,#address > span {
+  font-size: 1.3em;
+}
+
+#address p {
+  color: #557c3e;
+  font-size:.8em;
+  line-height: 1.8;
+}
+
+#testimonials {
+
+  font-style: italic;
+}
+
+#testimonials p:nth-clhild(2){
+  margin-top: 25px;
+}
 @media (min-width:1200px){
   .container .jumbotron {
     background: url('../images/restrurant_img_1200.jpg') no-repeat;
@@ -210,6 +252,19 @@ body{
 
   .img-responsive {
     width : 100%;
+  }
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section:nth-child(3){
+    margin-bottom: 0;
+  }
+
+  .panel-footer section hr {
+    width: 50%;
   }
 }
 
